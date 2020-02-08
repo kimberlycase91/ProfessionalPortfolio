@@ -1,0 +1,29 @@
+#navbar {
+    width: 100%;
+    height: 60px;
+    top: 0px;
+    position: absolute;
+    z-index: 999;
+    background-color: grey;
+    opacity: 0.8;
+    color: p
+}
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+#bio {
+    font-size: x-large;
+    max-width: 25%;
+    float: left;
+    margin: 10%;
+}
+
+#profilePhoto {
+    margin: 10%;
+}
+
+#aboutMe {
+    width: 30%;
+    text-align: center;
+}
