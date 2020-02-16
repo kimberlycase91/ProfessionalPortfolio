@@ -25,13 +25,3 @@ hr {
     border-width: 2px;
     padding: 10px;
 }
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.portfolio-link {
-    background-color: black;
-    text-align: center;
-}
