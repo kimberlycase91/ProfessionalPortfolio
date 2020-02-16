@@ -23,7 +23,14 @@ body {
     margin: 10%;
 }
 
+hr {
+    width: 75%;
+}
 #aboutMe {
-    width: 30%;
+    width: 40%;
+    margin: auto;
     text-align: center;
+    border: solid;
+    border-width: 2px;
+    padding: 10px;
 }
