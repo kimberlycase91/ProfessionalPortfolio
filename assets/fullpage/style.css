@@ -1,13 +1,4 @@
-#navbar {
-    width: 100%;
-    height: 60px;
-    top: 0px;
-    position: absolute;
-    z-index: 999;
-    background-color: grey;
-    opacity: 0.8;
-    color: p
-}
+
 body {
     font-family: 'Comfortaa', cursive;
 }
@@ -33,4 +24,14 @@ hr {
     border: solid;
     border-width: 2px;
     padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.portfolio-link {
+    background-color: black;
+    text-align: center;
 }
