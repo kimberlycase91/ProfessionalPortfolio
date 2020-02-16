@@ -52,92 +52,71 @@
 
         <div class="section" data-anchor="thirdPage">
             <div class="portfolio-div">
-                <div class="row">
-                    <div class="col s4">
-                        <a target="_blank" href="https://github.com/kimberlycase91/Project-01">
-                            <div class="portfolio-box grow">
-                                <div class="portfolio-border">
-                                    <p class="description">Event<br> Search</p>
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-                    <div class="col s4">
-                        <a target="_blank" href="https://github.com/kimberlycase91/TrainTime">
-                            <div class="portfolio-box grow">
-                                <div class="portfolio-border">
-                                    <p class="description">Train <br> Schedule</p>
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-                    <div class="col s4">
-                        <a target="_blank" href="https://github.com/kimberlycase91/In-A-Giphy">
-                            <div class="portfolio-box grow">
-                                <div class="portfolio-border">
-                                    <p class="description">Giphy <br> Search</p>
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
+                <div class="portfolio-link">
+                    <a target="_blank" href="https://github.com/kimberlycase91/Project-01">
+                        <p class="description">Event<br> Search</p>
+                    </a>
                 </div>
-                <div class="row">
-                    <div class="col s4">
-                        <a target="_blank" href="https://github.com/kimberlycase91/TriviaGame">
-                            <div class="portfolio-box grow">
-                                <div class="portfolio-border">
-                                    <p class="description">Timed <br> Quiz</p>
-                                </div>
-                            </div>
-                        </a>
 
-                    </div>
-                    <div class="col s4">
-                        <a target="_blank" href="https://github.com/kimberlycase91/unit-4-game">
-                            <div class="portfolio-box grow">
-                                <div class="portfolio-border">
-                                    <p class="description">Random Number <br> Game</p>
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-                    <div class="col s4">
-                        <a target="_blank" href="https://github.com/kimberlycase91/Word-Guess-Game">
-                            <div class="portfolio-box grow">
-                                <div class="portfolio-border">
-                                    <p class="description">Hangman</p>
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
+                <div class="portfolio-link">
+                    <a target="_blank" href="https://github.com/kimberlycase91/TrainTime">
+                        <p class="description">Train <br> Schedule</p>
+                    </a>
                 </div>
+
+                <div class="portfolio-link">
+                    <a target="_blank" href="https://github.com/kimberlycase91/In-A-Giphy">
+                        <p class="description">Giphy <br> Search</p>
+                    </a>
+                </div>
+
+                <div class="portfolio-link">
+                    <a target="_blank" href="https://github.com/kimberlycase91/TriviaGame">
+                        <p class="description">Timed <br> Quiz</p>
+                    </a>
+                </div>
+
+                <div class="portfolio-link">
+                    <a target="_blank" href="https://github.com/kimberlycase91/unit-4-game">
+                        <p class="description">Random Number <br> Game</p>
+                    </a>
+                </div>
+
+                <div class="portfolio-link">
+                    <a target="_blank" href="https://github.com/kimberlycase91/Word-Guess-Game">
+                        <p class="description">Hangman</p>
+                    </a>
+                </div>
+
             </div>
         </div>
 
+
         <div class="section" data-anchor="fourthPage">
             <h1>Contact Me</h1>
-            <form action="https://formspree.io/xzbrqqwp" method="POST">
-                <label>
-                    Your name:
-                    <input type="text" name="name">
-                </label>
-                <label>
-                    Your email:
-                    <input type="text" name="_replyto">
-                </label>
-                <label>
-                    Your message:
-                    <textarea name="message"></textarea>
-                </label>
-
-                <button type="submit">Send</button>
-            </form>
-
+            <div>
+                <form action="https://formspree.io/xzbrqqwp" method="POST">
+                    <div>
+                        <label>
+                            Your name:
+                            <input type="text" name="name">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Your email:
+                            <input type="text" name="_replyto">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                        </label>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
         </div>
     </div>
     <!-- JQuery and Materialize script -->
@@ -157,7 +136,9 @@
             navigation: true,
             navigationTooltips: ['Home', 'About', 'Portfolio', 'Contact'],
             showActiveTooltip: false,
-            menu: '#menu'
+            menu: '#menu',
+            loopTop: true,
+            loopBottom: true
         });
     </script>
 </body>
