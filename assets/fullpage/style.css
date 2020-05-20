@@ -4,24 +4,48 @@ body {
 }
 
 #bio {
-    font-size: x-large;
+    font-size: xx-large;
     max-width: 25%;
     float: left;
     margin: 10%;
 }
 
+#title {
+    color:#008B8B;
+}
+
 #profilePhoto {
     margin: 10%;
+    border-radius: 5px;
+    float: right;
 }
 
 hr {
     width: 75%;
 }
 #aboutMe {
+    color: white;
     width: 60%;
     margin: auto;
     text-align: center;
     border: solid;
     border-width: 2px;
     padding: 10px;
+}
+
+#contact-div {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#links {
+    color: white;
+    text-align:center;
 }
